@@ -1,6 +1,6 @@
 {
   "name": "visionboard",
-  "version": "0.1.0+claude.20260917102011",
+  "version": "0.1.0+claude.20260917103348",
   "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",

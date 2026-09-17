@@ -1,7 +1,7 @@
 {
   "name": "visionboard",
   "version": "0.1.0",
-  "buildId": "20260917102011",
+  "buildId": "20260917103348",
   "description": "Use the complete VisionBoard OAuth MCP contract for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "hostDescriptions": {
     "codex": "Use the complete VisionBoard OAuth MCP contract and its native conversation workspace for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
