@@ -18,6 +18,7 @@ There is one MCP server definition (`.mcp.json`), one skill tree (`skills/`), an
 | `/.agents/plugins/marketplace.json` | Codex marketplace (from a checkout) | yes |
 | `/.claude-plugin/marketplace.json` | Claude Code marketplace (from a checkout) | yes |
 | `/public/plugin/marketplace.json` + `visionboard.zip` | anyone installing from visionboard.si | yes, at build |
+| `pyrabit-com/visionboard` (public repo) | anyone installing by name, and the community catalog | yes, via `tools/publish-plugin-repo.mjs` |
 
 Run `npm run plugin:release` after editing the source: it regenerates the host manifests and rebuilds the published archive and its descriptor. `npm run plugin:manifests:check` fails the test suite if a committed manifest was edited directly or left stale, and the release artifacts are rebuilt on every `npm run build`, so no host can drift apart from the others.
 
@@ -25,14 +26,14 @@ Run `npm run plugin:release` after editing the source: it regenerates the host m
 
 There are three entry points. All three reach the same server, the same OAuth consent, and the same tools; they differ only in how much of the working-rules skill comes with them.
 
-**1. Plugin — Claude Code.** VisionBoard hosts its own marketplace, so installing needs no code-host account:
+**1. Plugin — Claude Code.**
 
 ```bash
-claude plugin marketplace add https://visionboard.si/plugin/marketplace.json
+claude plugin marketplace add pyrabit-com/visionboard
 claude plugin install visionboard@visionboard
 ```
 
-From a checkout, `claude plugin marketplace add ./` installs the working copy instead. Both resolve to the same plugin; the hosted route serves the archive built by `npm run plugin:release`, whose hash the published marketplace carries.
+Three routes reach the same plugin, and all three are generated from this directory: the public repository `pyrabit-com/visionboard`, which the community catalog pins a commit from; `https://visionboard.si/plugin/marketplace.json`, which serves the archive built by `npm run plugin:release` with its hash; and `claude plugin marketplace add ./` from a checkout for development. Run `node tools/publish-plugin-repo.mjs <clone>` to refresh the public repository — never edit it directly.
 
 This is the fullest path: the MCP server *and* the bundled skill, so the model knows when to consult VisionBoard and how to close a strategic loop. Codex installs the same directory through its own marketplace at `.agents/plugins/marketplace.json`.
 
