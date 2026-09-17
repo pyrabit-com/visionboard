@@ -14,7 +14,7 @@
       "name": "visionboard",
       "source": "./plugins/visionboard",
       "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
-      "version": "0.1.0+claude.20260917103348",
+      "version": "0.1.0+claude.20260917113410",
       "category": "productivity",
       "keywords": [
         "vision",
