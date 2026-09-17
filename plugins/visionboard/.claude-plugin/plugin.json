@@ -1,0 +1,22 @@
+{
+  "name": "visionboard",
+  "version": "0.1.0+claude.20260917102011",
+  "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
+  "author": {
+    "name": "Pyrabit UG (haftungsbeschränkt)",
+    "email": "info@visionboard.si",
+    "url": "https://visionboard.si"
+  },
+  "homepage": "https://visionboard.si",
+  "repository": "https://github.com/pyrabit-com/visionboard",
+  "keywords": [
+    "vision",
+    "strategy",
+    "direction",
+    "goals",
+    "boards",
+    "mcp",
+    "ai-agents"
+  ],
+  "mcpServers": "./.mcp.json"
+}

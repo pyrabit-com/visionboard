@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">VisionBoard</title>
+  <rect width="1024" height="1024" fill="#FFFCF7"/>
+  <rect x="24" y="24" width="976" height="976" rx="224" fill="#111312"/>
+  <g transform="translate(167 167) scale(3.45)" fill="#F8F6EF">
+    <path d="M24 15H82Q90 15 90 23V70A40 40 0 0 0 72 82L17 27Q12 22 17 18Q20 15 24 15Z"/>
+    <path d="M176 15H118Q110 15 110 23V70A40 40 0 0 1 128 82L183 27Q188 22 183 18Q180 15 176 15Z"/>
+    <path d="M12 50L61 99Q63 101 61 103Q60 104 57 104H22Q12 104 12 94Z"/>
+    <path d="M188 50L139 99Q137 101 139 103Q140 104 143 104H178Q188 104 188 94Z"/>
+    <path d="M22 123H58A44 44 0 0 0 90 153V176Q90 184 82 184H30Q12 184 12 166V133Q12 123 22 123Z"/>
+    <path d="M178 123H142A44 44 0 0 1 110 153V176Q110 184 118 184H170Q188 184 188 166V133Q188 123 178 123Z"/>
+  </g>
+  <circle cx="100" cy="110" r="20" fill="#2EC795" transform="translate(167 167) scale(3.45)"/>
+</svg>

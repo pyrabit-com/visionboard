@@ -1,0 +1,48 @@
+{
+  "name": "visionboard",
+  "version": "0.1.0+codex.20260917102011",
+  "description": "Use the complete VisionBoard OAuth MCP contract and its native conversation workspace for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
+  "author": {
+    "name": "Pyrabit UG (haftungsbeschränkt)",
+    "email": "info@visionboard.si",
+    "url": "https://visionboard.si"
+  },
+  "homepage": "https://visionboard.si",
+  "repository": "https://github.com/pyrabit-com/visionboard",
+  "keywords": [
+    "vision",
+    "strategy",
+    "direction",
+    "goals",
+    "boards",
+    "mcp",
+    "ai-agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "VisionBoard",
+    "shortDescription": "Read, create, review, and pursue work from approved direction.",
+    "longDescription": "Connect Codex or ChatGPT Work to the complete VisionBoard OAuth MCP contract and a native conversation workspace backed by the same exact data and actions as the product. Read permissioned Direction and exact revisions; create attributed Draft Notes, Goals, Documents, Brand Kits, Products, Images, and Boards; work with review comments and human approval packets; prepare human-authorized Visions; and continue human-activated Goals through bounded evidence cycles. VisionBoard keeps approval, access, and Goal completion under human control.",
+    "developerName": "Pyrabit UG (haftungsbeschränkt)",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review",
+      "Goal Runs"
+    ],
+    "websiteURL": "https://visionboard.si",
+    "privacyPolicyURL": "https://visionboard.si/data-protection",
+    "termsOfServiceURL": "https://visionboard.si/terms-of-use",
+    "defaultPrompt": [
+      "Read my approved Vision and identify the next priority.",
+      "Create a review-ready Draft from my approved direction.",
+      "Continue the next due VisionBoard Goal Run."
+    ],
+    "brandColor": "#2EC795",
+    "composerIcon": "./assets/visionboard-app-icon.svg",
+    "logo": "./assets/visionboard-app-icon.svg",
+    "logoDark": "./assets/visionboard-app-icon.svg"
+  },
+  "mcpServers": "./.mcp.json"
+}

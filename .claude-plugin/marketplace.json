@@ -1,0 +1,36 @@
+{
+  "name": "visionboard",
+  "owner": {
+    "name": "Pyrabit UG (haftungsbeschränkt)",
+    "email": "info@visionboard.si",
+    "url": "https://visionboard.si"
+  },
+  "metadata": {
+    "description": "Read approved VisionBoard direction, return governed Drafts for human review, and continue human-activated Goal Runs.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "visionboard",
+      "source": "./plugins/visionboard",
+      "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
+      "version": "0.1.0+claude.20260917102011",
+      "category": "productivity",
+      "keywords": [
+        "vision",
+        "strategy",
+        "direction",
+        "goals",
+        "boards",
+        "mcp",
+        "ai-agents"
+      ],
+      "homepage": "https://visionboard.si",
+      "author": {
+        "name": "Pyrabit UG (haftungsbeschränkt)",
+        "email": "info@visionboard.si",
+        "url": "https://visionboard.si"
+      }
+    }
+  ]
+}

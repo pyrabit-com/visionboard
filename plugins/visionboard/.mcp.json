@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "visionboard": {
+      "type": "http",
+      "url": "https://visionboard.si/api/mcp"
+    }
+  }
+}
