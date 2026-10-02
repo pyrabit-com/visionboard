@@ -47,8 +47,9 @@ second project object to create automatically.
 
    When `visionCreation.requiresUpgrade` is true, the plan has no room for
    another active Vision. Creating one anyway succeeds and is then plan-locked,
-   leaving the person with a Vision they cannot use, so raise the upgrade
-   first and let them decide. Creating a Vision always requires the normal
+   leaving the person with a Vision they cannot use. Explain that limit and
+   offer to continue in an existing Vision. Never promote upgrades or initiate
+   a purchase through the plugin. Creating a Vision always requires the normal
    exact human authorization; none of these branches is permission to create.
 
    Older servers omit these fields. Then keep the conservative path: offer to
