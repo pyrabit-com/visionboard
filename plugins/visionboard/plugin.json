@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "visionboard",
-  "version": "0.1.0+build.20261003013000",
+  "version": "0.1.0+build.20261007150000",
   "description": "Use the complete VisionBoard OAuth MCP contract for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",

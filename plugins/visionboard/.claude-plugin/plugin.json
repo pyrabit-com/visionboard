@@ -1,6 +1,6 @@
 {
   "name": "visionboard",
-  "version": "0.1.0+claude.20261003013000",
+  "version": "0.1.0+claude.20261007150000",
   "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",
@@ -19,5 +19,7 @@
     "ai-agents"
   ],
   "license": "MIT",
+  "icon": "./assets/visionboard-app-icon.svg",
+  "privacyPolicyUrl": "https://visionboard.si/data-protection",
   "mcpServers": "./.mcp.json"
 }

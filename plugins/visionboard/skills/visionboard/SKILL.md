@@ -74,6 +74,13 @@ command.
 4. Treat Approved as current direction. Keep Draft, Review, Outdated, contested, failed, or withheld material visibly distinct.
 5. When permitted context is incomplete, say what is missing and do not infer the hidden truth.
 
+### Use existing images as real references
+
+- For each relevant approved image, use its coverage-manifest exact revision and pinned file revision with `read_vision_element_page`, `includeImage: true`. The MCP image block contains actual pixels normalized from the approved original; the accompanying hash and revision identify their source. The private original URL is not itself a visual input.
+- Prefer the user's requested native generator when it accepts those returned image blocks. Pass the actual visual inputs again for each new scene; a remembered caption or prior generated variation does not preserve people's appearance, logos or product details.
+- Do not claim that a generator used a reference unless its actual input included that representation. If the host cannot hand the pixels to its generator, disclose that precise limitation before generating and offer the existing VisionBoard Create Image route or an attachment route. Do not generate substitute people from a description. Do not automatically select a paid external service or ask for another upload before checking the approved image-pixel read.
+- This read grants no extra access, publication, payment or generation permission. Keep originals private; exact likeness and perfect visual fidelity are not guaranteed.
+
 ## Write safely
 
 - Create or revise an attributed Draft through the matching MCP tool. Never claim that a Draft is approved.
