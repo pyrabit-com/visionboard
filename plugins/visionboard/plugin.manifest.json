@@ -1,7 +1,7 @@
 {
   "name": "visionboard",
-  "version": "0.1.0",
-  "buildId": "20261007150000",
+  "version": "0.1.2",
+  "buildId": "20261029210000",
   "description": "Use the complete VisionBoard OAuth MCP contract for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "hostDescriptions": {
     "codex": "Use the complete VisionBoard OAuth MCP contract and its native conversation workspace for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
@@ -37,7 +37,7 @@
   "interface": {
     "displayName": "VisionBoard",
     "shortDescription": "Approved direction for AI",
-    "longDescription": "Connect Codex or ChatGPT Work to the complete VisionBoard OAuth MCP contract and a native conversation workspace backed by the same exact data and actions as the product. Read permissioned Direction and exact revisions; create attributed Draft Notes, Goals, Documents, Brand Kits, Products, Images, and Boards; work with review comments and human approval packets; prepare human-authorized Visions; and continue human-activated Goals through bounded evidence cycles. VisionBoard keeps approval, access, and Goal completion under human control.",
+    "longDescription": "Connect Codex or ChatGPT Work to the complete VisionBoard OAuth MCP contract and a native conversation workspace backed by the same exact data and actions as the product. Read permissioned Direction and exact revisions; create images from approved logos and pictures; create attributed Draft Notes, Goals, Documents, Brand Kits, Products, Images, and Boards; work with review comments and human approval packets; prepare human-authorized Visions; and continue human-activated Goals through bounded evidence cycles. VisionBoard keeps approval, access, and Goal completion under human control.",
     "developerName": "Pyrabit UG (haftungsbeschränkt)",
     "category": "Productivity",
     "capabilities": [
@@ -52,7 +52,7 @@
     "termsOfServiceURL": "https://visionboard.si/terms-of-use",
     "defaultPrompt": [
       "Read my approved Vision and identify the next priority.",
-      "Create a review-ready Draft from my approved direction.",
+      "Create an image of a white mug with our logo on it.",
       "Continue the next due VisionBoard Goal Run."
     ],
     "brandColor": "#2EC795",

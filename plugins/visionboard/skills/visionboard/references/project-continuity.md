@@ -37,7 +37,9 @@ second project object to create automatically.
 
    - `offer_new_vision` — this grant covers the organization, so nothing fits
      anywhere the person could have meant. Say that plainly and offer to
-     prepare a new Vision for this project.
+     prepare a new Vision for this project, using the project's name as the
+     proposed title. This is the expected path for a genuinely new project, not
+     an exception to avoid.
    - `ask_link_or_create` — this grant is narrower than the organization, so an
      empty result proves nothing. Never claim no Vision exists. Ask the one
      question that resolves it: link an existing Vision through VisionBoard's
@@ -51,6 +53,21 @@ second project object to create automatically.
    offer to continue in an existing Vision. Never promote upgrades or initiate
    a purchase through the plugin. Creating a Vision always requires the normal
    exact human authorization; none of these branches is permission to create.
+
+   Guardrails for the offer to create a Vision:
+
+   - Offer it once per conversation, as one short question that names the
+     proposed title. If the person declines or continues without one, do not
+     ask again in that conversation and do not store the refusal in the pointer
+     (its schema stays fixed).
+   - Preparing is not creating: the exact human authorization step still
+     decides, and nothing is created, linked or written to the pointer before
+     it. Never offer a Vision as a side effect of an ordinary task in a project
+     that already has an association.
+   - Never offer it when `visionCreation.requiresUpgrade` is true, and never
+     mention plans, prices or upgrades in the offer.
+   - After a Vision is created and confirmed, save the association as in step 6
+     so later chats do not ask again.
 
    Older servers omit these fields. Then keep the conservative path: offer to
    prepare one, never assert that none exists outside the grant, and say that
