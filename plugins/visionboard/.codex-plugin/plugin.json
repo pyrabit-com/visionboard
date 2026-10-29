@@ -1,6 +1,6 @@
 {
   "name": "visionboard",
-  "version": "0.1.2+codex.20261029210000",
+  "version": "0.1.3+codex.20261029123115",
   "description": "Use the complete VisionBoard OAuth MCP contract and its native conversation workspace for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",
@@ -32,7 +32,7 @@
       "Review",
       "Goal Runs"
     ],
-    "websiteURL": "https://visionboard.si",
+    "websiteURL": "https://visionboard.si/connect-ai/chatgpt",
     "supportURL": "https://visionboard.si/support",
     "privacyPolicyURL": "https://visionboard.si/data-protection",
     "termsOfServiceURL": "https://visionboard.si/terms-of-use",

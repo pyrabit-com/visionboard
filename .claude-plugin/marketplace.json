@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "Read approved VisionBoard direction, return governed Drafts for human review, and continue human-activated Goal Runs.",
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   "plugins": [
     {
       "name": "visionboard",
       "source": "./plugins/visionboard",
       "description": "Work from approved VisionBoard direction: read permissioned Vision context, return attributed Drafts for human review, and continue human-activated Goal Runs through the complete OAuth MCP contract.",
-      "version": "0.1.2+claude.20261029210000",
+      "version": "0.1.3+claude.20261029123115",
       "category": "productivity",
       "keywords": [
         "vision",
