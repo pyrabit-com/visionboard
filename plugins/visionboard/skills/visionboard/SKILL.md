@@ -83,6 +83,10 @@ command.
 - Do not claim that a generator used a reference unless its actual input included that representation. If the host cannot hand the pixels to its generator, disclose that precise limitation before generating and offer the existing VisionBoard Create Image route or an attachment route. Do not generate substitute people from a description. Do not automatically select a paid external service or ask for another upload before checking the approved image-pixel read.
 - This read grants no extra access, publication, payment or generation permission. Keep originals private; exact likeness and perfect visual fidelity are not guaranteed.
 
+### Pictures attached in the conversation
+
+When the person attaches pictures to keep in VisionBoard, call `save_chat_pictures` (ChatGPT) with the confirmed `visionId`, a `titles` and a `descriptions` entry for each (from what is visible, never guessing who someone is). They are saved as Drafts, never approved; name any that were not saved and why. To place them on a Board, pass each returned `boardElement` unchanged to `create_draft_board`. Do not generate a substitute picture, and do not say a picture is in VisionBoard unless the call reports it saved.
+
 ## Write safely
 
 - Create or revise an attributed Draft through the matching MCP tool. Never claim that a Draft is approved.
