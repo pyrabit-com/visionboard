@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "visionboard",
-  "version": "0.1.5+build.20261030124735",
+  "version": "0.1.6+build.20261103140000",
   "description": "Use the complete VisionBoard OAuth MCP contract for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",
@@ -39,9 +39,9 @@
         "privacyPolicyURL": "https://visionboard.si/data-protection",
         "termsOfServiceURL": "https://visionboard.si/terms-of-use",
         "defaultPrompt": [
+          "Help me turn my idea into a Vision.",
           "Read my approved Vision and identify the next priority.",
-          "Create an image of a white mug with our logo on it.",
-          "Continue the next due VisionBoard Goal Run."
+          "Create an image of a white mug with our logo on it."
         ],
         "brandColor": "#2EC795",
         "composerIcon": "./assets/visionboard-app-icon.svg",
