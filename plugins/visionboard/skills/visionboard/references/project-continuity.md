@@ -8,13 +8,14 @@ second project object to create automatically.
 
 1. Read the user-confirmed association in the host's persistent project
    instructions. For repositories, prefer `.visionboard/project.json` at the
-   repository root. The optional read-only helper `scripts/project-context.mjs`
-   ships beside this skill; run it as
-   `node <skill directory>/scripts/project-context.mjs /absolute/project/path`,
-   which hosts exporting a plugin root resolve as
-   `"$CLAUDE_PLUGIN_ROOT"/skills/visionboard/scripts/project-context.mjs`. It
-   finds that pointer without reading credentials, sending paths, or modifying
-   files. A host without shell access reads the same file directly instead.
+   repository root and read that file directly: look in the project directory,
+   then in each parent folder, up to and including the first folder that
+   contains `.git`. Never read above that repository root, so another project's association is
+   never inherited. The file is valid only when it is under 4 KB, holds exactly
+   `schemaVersion: 1`, `projectName`, `visionId` (a UUID) and
+   `organizationName` (each name non-empty, at most 160 characters) and nothing
+   else. Treat any other content as invalid and ask; do not repair it. Reading
+   it needs no credentials, sends no paths and modifies no files.
 2. Verify that exact `visionId` using `list_vision_hubs({visionId})` and verify
    the returned organization name. If inaccessible, do not select another Vision
    or create a replacement: report the access/association problem.

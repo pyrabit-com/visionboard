@@ -1,6 +1,6 @@
 {
   "name": "visionboard",
-  "version": "0.1.6+codex.20261103140000",
+  "version": "0.1.7+codex.20261107100000",
   "description": "Use the complete VisionBoard OAuth MCP contract and its native conversation workspace for approved direction, governed creation, review, Boards, and human-led Goal Runs.",
   "author": {
     "name": "Pyrabit UG (haftungsbeschränkt)",
@@ -42,9 +42,9 @@
       "Create an image of a white mug with our logo on it."
     ],
     "brandColor": "#2EC795",
-    "composerIcon": "./assets/visionboard-app-icon.svg",
-    "logo": "./assets/visionboard-app-icon.svg",
-    "logoDark": "./assets/visionboard-app-icon.svg"
+    "composerIcon": "./assets/visionboard-app-icon.png",
+    "logo": "./assets/visionboard-app-icon.png",
+    "logoDark": "./assets/visionboard-app-icon.png"
   },
   "mcpServers": "./.mcp.json"
 }
